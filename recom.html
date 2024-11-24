@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div id="left-side">
+            <div id="name">BYREDDY SIREESHA</div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="recom.html">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+
+        <!-- Container for Recommendations -->
+        <div class="recommendations-container">
+
+            <!-- Recommendation Box 1 -->
+            <div class="recommendation-box">
+                <div class="recommendation-title">
+                    <strong>John Doe</strong>
+                </div>
+                <div class="recommendation-description">
+                    <p>"Your Name is an excellent developer who brings technical expertise and creativity to every project."</p>
+                </div>
+            </div>
+
+            <!-- Recommendation Box 2 -->
+            <div class="recommendation-box">
+                <div class="recommendation-title">
+                    <strong>Jane Smith</strong>
+                </div>
+                <div class="recommendation-description">
+                    <p>"Your Name demonstrates outstanding problem-solving abilities and great teamwork skills."</p>
+                </div>
+            </div>
+
+            <!-- Recommendation Box 3 -->
+            <div class="recommendation-box">
+                <div class="recommendation-title">
+                    <strong>Michael Johnson</strong>
+                </div>
+                <div class="recommendation-description">
+                    <p>"I highly recommend Your Name for their strong technical skills and dedication to excellence."</p>
+                </div>
+            </div>
+
+        </div> <!-- End of recommendations-container -->
+
+        <!-- Add New Recommendation Form -->
+        <div class="add-recommendation">
+            <h3>Add New Recommendation</h3>
+            <form id="recommendationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name1" name="name" required><br>
+
+                <label for="description">Recommendation:</label>
+                <textarea id="description" name="description" required></textarea><br>
+
+                <button type="submit">Submit Recommendation</button>
+                
+            </form>
+        </div>
+        
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
